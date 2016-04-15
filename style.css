@@ -1,0 +1,52 @@
+.bg img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.arakatman{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.buyukyazi{
+  position: absolute;
+  z-index: 5;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  font-size: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  margin-left: 50%;
+  margin-top: 15%;
+  left: -150px;
+}
+
+.aciklama{
+  position: absolute;
+  z-index: 5;
+  margin-top: 25%;
+  color: #fff;
+  text-align: center;
+  margin-left: 50%;
+  left: -330px;
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 300;
+}
+
+.aciklama a input{
+  width: 175px;
+  height: 35px;
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
